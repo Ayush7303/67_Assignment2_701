@@ -1,0 +1,5 @@
+const express=require('express')
+const multer=require('multer')
+const path=requiere('path')
+const app=express()
+app.use(express.static('public'))
